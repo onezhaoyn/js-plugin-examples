@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+li:last-child {
+  border-bottom: none;
+}
